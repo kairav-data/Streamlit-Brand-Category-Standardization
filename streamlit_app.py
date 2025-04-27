@@ -8,7 +8,6 @@ from io import BytesIO
 # Accessing API key from Streamlit secrets
 api_key = st.secrets["api_keys"]["my_api_key"]
 
-st.write("API Key:", api_key)
 
 
 # Setup Gemini
